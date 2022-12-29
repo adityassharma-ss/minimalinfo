@@ -1,0 +1,37 @@
+{
+  "name": "this-does-nothing",
+  "private": true,
+  "homepage": "https://adityassharma-ss.github.io/thisdoesnothing/",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@tippyjs/react": "^4.2.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-rough-notation": "^1.0.3",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@types/react-modal": "^3.13.1",
+    "@vitejs/plugin-react": "^2.2.0",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
+}
