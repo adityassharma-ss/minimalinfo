@@ -16,6 +16,11 @@ const MyList = () => {
 			My own Portfolio Website
 		</p>
 		</li>
+		<li style={{ margin: '20px 0', color: "#46912B" }}><a href="https://tech-bubble.vercel.app/">"TechBubble"</a>
+		<p>
+			A platform for tech enthusiasts to share their knowledge and learn from others
+		</p>
+		</li>
 		<li style={{ margin: '20px 0', color: "#46912B" }}><a href="https://github.com/adityassharma-ss/DevOps">"DevOps"</a>
 		<p>
 			My very own DevOps Journey
