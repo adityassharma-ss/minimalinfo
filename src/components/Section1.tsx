@@ -21,6 +21,11 @@ const MyList = () => {
 			A platform for tech enthusiasts to share their knowledge and learn from others
 		</p>
 		</li>
+		<li style={{ margin: '20px 0', color: "pink" }}><a href="https://answerme-eight.vercel.app/">"AnswerMe"</a>
+		<p>
+		A React and Express app using OpenAI for advanced NLP capabilities, great for chatbots and customer service.
+		</p>
+		</li>
 		<li style={{ margin: '20px 0', color: "#46912B" }}><a href="https://github.com/adityassharma-ss/DevOps">"DevOps"</a>
 		<p>
 			My very own DevOps Journey
